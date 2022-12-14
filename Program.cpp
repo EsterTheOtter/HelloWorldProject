@@ -60,9 +60,9 @@ void Program::mainMenu() {
     //main menu
 
     std::cout << "Main menu\n"
-            << "Hello World!"
-            << "Options"
-            << "Quit";
+            << "Hello World!\n"
+            << "Options\n"
+            << "Quit\n";
     std::cin >> uResponse;
 
 }
