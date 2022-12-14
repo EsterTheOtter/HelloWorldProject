@@ -65,6 +65,21 @@ void Program::mainMenu() {
             << "Quit\n";
     std::cin >> uResponse;
 
+    if (uResponse == "Hello World!") {
+    menu_Start();
+    } else if (uResponse == "Options") {
+
+    } else if (uResponse == "Quit) {
+    std::cout << "Are you sure?"
+            << "\n\nY/N\n"
+            << getUsername() << ": ";
+    std::cin >> response
+//find better way than another nested if condition 
+    std::cout << "Quitting program...\n";
+    } else {
+    
+    };
+
 }
 
 void Program::menu_Start() {
