@@ -10,7 +10,7 @@ int main() {
 
     //runtime
 
-    program.mainMenu();
+    program.startup();
    
 
 };

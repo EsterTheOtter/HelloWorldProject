@@ -8,6 +8,8 @@ class Program {
 
     private:
 
+    bool program;
+    std::string username;
     std::string uResponse;
 
     public:
@@ -18,9 +20,12 @@ class Program {
 
     //functions
 
+    void startup();
     void mainMenu();
 
     //accessors
+
+    inline const bool& getProgram() const { return this -> program; };
 
 };
 
