@@ -22,10 +22,14 @@ class Program {
 
     void startup();
     void mainMenu();
+    void menu_Start();
+    void menu_Options();
+    void menu_Quit();
 
     //accessors
 
     inline const bool& getProgram() const { return this -> program; };
+    inline const std::string& getUsername() const { return this -> username; };
 
 };
 

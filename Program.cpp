@@ -52,8 +52,31 @@ void Program::startup() {
 
 void Program::mainMenu() {
 
-    std::cout << username << ": ...says \"Hello World!\"";
+    //greetings
+    system("CLS");
+    std::cout << "Welcome " << getUsername() << " ...\n\n";
+    Sleep(900);
 
+    //main menu
+
+    std::cout << "Main menu\n"
+            << "Hello World!"
+            << "Options"
+            << "Quit";
+    std::cin >> uResponse;
+
+}
+
+void Program::menu_Start() {
+    std::cout << getUsername() << ": ...says \"Hello World!\"";
+}
+
+void Program::menu_Options() {
+    
+}
+
+void Program::menu_Quit() {
+    
 }
 
 //accessors
