@@ -1,8 +1,16 @@
 #include <iostream>
 
+#include "Program.hpp"
+
 
 int main() {
 
-    std::cout << "Hello World!\n";
+    //initialization
+    Program program;
+
+    //runtime
+
+    program.mainMenu();
+   
 
 };
